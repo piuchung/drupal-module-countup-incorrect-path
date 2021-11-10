@@ -1,0 +1,13 @@
+diff --git a/countup.install b/countup.install
+index bfc9ffa..9f500e1 100644
+--- a/countup.install
++++ b/countup.install
+@@ -13,7 +13,7 @@ function countup_requirements($phase){
+ 
+   if ($phase === 'runtime') {
+     $dependencies = [
+-      'countUp.js' => [
++      'countup.js' => [
+         'name' => 'countUp.js',
+         'description' => 'CountUp.js is lightweight JavaScript "class" that can be used to quickly create animations that display numerical data in a more interesting way.',
+         'path' => 'dist/countUp.umd.js',
